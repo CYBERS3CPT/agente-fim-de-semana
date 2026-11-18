@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//agente-fim-de-semana//PT
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Fim de semana em Madrid
+BEGIN:VEVENT
+UID:20261121-0930-0-e27e8906@agente-fim-de-semana
+DTSTAMP:20261118T164425Z
+DTSTART:20261121T093000
+DTEND:20261121T104500
+SUMMARY:Parque del Retiro: lago\, barcos à vista e esquilos
+DESCRIPTION:Abaixo dos 60 % de chuva e cedo\, antes das multidões: naturez
+ a de graça para gastar energia antes do museu.\nConfirmar: sugestão gera
+ l\; se estiver a chover a sério\, saltar e ir direto ao museu\nFonte: htt
+ ps://www.esmadrid.com/informacion-turistica/parque-del-retiro
+LOCATION:Parque del Retiro (Metro Retiro\, L2)
+URL:https://www.esmadrid.com/informacion-turistica/parque-del-retiro
+END:VEVENT
+BEGIN:VEVENT
+UID:20261121-1115-1-fb844167@agente-fim-de-semana
+DTSTAMP:20261118T164425Z
+DTSTART:20261121T111500
+DTEND:20261121T131500
+SUMMARY:Museo Nacional de Ciencias Naturales
+DESCRIPTION:Dinossauros\, minerais e animais: ciência e natureza em interi
+ or\, perfeito para um sábado cinzento.\nConfirmar: sugestão geral\; hor
+ ário e preço (adulto + criança) no site\nFonte: https://www.mncn.csic.e
+ s
+LOCATION:Calle de José Gutiérrez Abascal 2 (Metro Gregorio Marañón)
+URL:https://www.mncn.csic.es
+END:VEVENT
+BEGIN:VEVENT
+UID:20261121-1630-2-88cabe6d@agente-fim-de-semana
+DTSTAMP:20261118T164425Z
+DTSTART:20261121T163000
+DTEND:20261121T180000
+SUMMARY:Planetario de Madrid
+DESCRIPTION:Depois da sesta\, uma sessão às escuras com estrelas: interio
+ r\, curto e barato.\nConfirmar: sugestão geral\; sessões infantis\, hor
+ ários e preço no site\nFonte: https://www.planetmad.es
+LOCATION:Parque Tierno Galván (Metro Méndez Álvaro)
+URL:https://www.planetmad.es
+END:VEVENT
+BEGIN:VEVENT
+UID:20261122-1000-0-3aca6e83@agente-fim-de-semana
+DTSTAMP:20261118T164425Z
+DTSTART:20261122T100000
+DTEND:20261122T123000
+SUMMARY:Museo del Ferrocarril
+DESCRIPTION:Locomotivas a sério numa estação antiga coberta: dá para su
+ bir\, espreitar e tocar. Chegar à abertura evita filas.\nConfirmar: suges
+ tão geral\; horário de domingo e preço no site\nFonte: https://www.muse
+ odelferrocarril.org
+LOCATION:Antigua estación de Delicias\, Paseo de las Delicias 61 (Metro De
+ licias)
+URL:https://www.museodelferrocarril.org
+END:VEVENT
+BEGIN:VEVENT
+UID:20261122-1630-1-dbebc9f2@agente-fim-de-semana
+DTSTAMP:20261118T164425Z
+DTSTART:20261122T163000
+DTEND:20261122T180000
+SUMMARY:Espacio Abierto Quinta de los Molinos
+DESCRIPTION:Centro cultural municipal feito de propósito para crianças\, 
+ com oficinas gratuitas.\nConfirmar: sugestão geral\; programa de domingo 
+ e eventual inscrição prévia no site\nFonte: https://www.madrid.es
+LOCATION:Calle Juan Ignacio Luca de Tena 20 (Metro Suanzes)
+URL:https://www.madrid.es
+END:VEVENT
+END:VCALENDAR

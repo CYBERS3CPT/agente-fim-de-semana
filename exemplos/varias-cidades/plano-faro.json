@@ -1,0 +1,91 @@
+{
+  "cidade": "Faro",
+  "fim_de_semana": "21 e 22 de novembro",
+  "resumo": "Sábado de chuva com ciência e museu, domingo de sol com a Ria Formosa logo de manhã, antes de toda a gente acordar.",
+  "orcamento": 50,
+  "avisos": [],
+  "dias": [
+    {
+      "dia": "Sábado 21/11",
+      "data": "2026-11-21",
+      "tempo": {
+        "estado": "Aguaceiros/chuva",
+        "t_min": 11,
+        "t_max": 20,
+        "prob_chuva": 75
+      },
+      "atividades": [
+        {
+          "hora": "10:00",
+          "titulo": "Centro Ciência Viva do Algarve",
+          "onde": "Rua Comandante Francisco Manuel, junto à doca",
+          "porque": "Interior, experiências onde se mexe em tudo, e fica a 5 minutos a pé da estação. Chegar à abertura é a melhor maneira de fugir aos outros pais que tiveram a mesma ideia.",
+          "custo": 8,
+          "interior": true,
+          "fonte": "https://www.ccvalg.pt",
+          "confirmar": "sugestão geral: confirmar horário de sábado e preço (estimativa adulto + criança)",
+          "duracao_min": 120
+        },
+        {
+          "hora": "16:00",
+          "titulo": "Museu Municipal de Faro",
+          "onde": "Convento de Nossa Senhora da Assunção, Cidade Velha",
+          "porque": "Depois da sesta: claustro coberto, mosaico romano do Oceano e uma volta curta. Se a chuva parar, entra-se pelo Arco da Vila.",
+          "custo": 2,
+          "interior": true,
+          "fonte": "https://www.cm-faro.pt",
+          "confirmar": "sugestão geral: confirmar horário de sábado e preço",
+          "duracao_min": 75
+        }
+      ]
+    },
+    {
+      "dia": "Domingo 22/11",
+      "data": "2026-11-22",
+      "tempo": {
+        "estado": "Céu nublado por nuvens altas",
+        "t_min": 11,
+        "t_max": 19,
+        "prob_chuva": 2
+      },
+      "atividades": [
+        {
+          "hora": "09:30",
+          "titulo": "Praia de Faro e passadiços da Ria Formosa",
+          "onde": "Praia de Faro (autocarro 16 desde o centro)",
+          "porque": "Natureza a sério: caranguejos na lama da ria, aves, conchas na areia. Em novembro e cedo, a praia é praticamente vossa.",
+          "custo": 0,
+          "interior": false,
+          "confirmar": "sugestão geral: confirmar horário do autocarro 16 ao domingo",
+          "duracao_min": 150
+        },
+        {
+          "hora": "16:00",
+          "titulo": "Jardim Manuel Bívar e Doca de Faro",
+          "onde": "Baixa de Faro, junto à marina",
+          "porque": "Passeio curto a seguir à sesta, a ver barcos e cegonhas nos telhados da Cidade Velha. Sem bilhete, sem fila.",
+          "custo": 0,
+          "interior": false,
+          "confirmar": "sugestão geral",
+          "duracao_min": 60
+        }
+      ]
+    }
+  ],
+  "custos_extra": [
+    {
+      "o_que": "autocarro Praia de Faro, ida e volta (adulto + criança)",
+      "custo": 8
+    }
+  ],
+  "levar": [
+    "guarda-chuva e impermeável para sábado",
+    "casaco corta-vento para a praia no domingo",
+    "balde e pá (a areia em novembro também conta)"
+  ],
+  "notas": [
+    "Não encontrei eventos com data confirmada para este fim de semana em Faro: as atividades são sugestões gerais, por isso confirmar horários antes de sair.",
+    "Possível recital de órgão na Sé de Faro a 22/11 (barlavento.pt), mas o ano do artigo não é claro: não entrou no plano.",
+    "Ciência Viva e Museu Municipal ficam a pé da estação; só a praia precisa de autocarro."
+  ]
+}

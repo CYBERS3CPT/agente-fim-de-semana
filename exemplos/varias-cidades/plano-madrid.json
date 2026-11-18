@@ -1,0 +1,109 @@
+{
+  "cidade": "Madrid",
+  "fim_de_semana": "21 e 22 de novembro",
+  "resumo": "Dois dias de chuva fraca e mais nada (45 % e 55 %): um passeio curto no Retiro logo cedo, depois dinossauros, estrelas e comboios a sério, tudo debaixo de telha.",
+  "orcamento": 50,
+  "avisos": [
+    "O Open-Meteo não publica avisos oficiais: confirmar na AEMET (aemet.es) na véspera.",
+    "Não encontrei agenda fiável com data para 21–22/11: todas as atividades são sugestões gerais em locais permanentes, marcadas para confirmar."
+  ],
+  "dias": [
+    {
+      "dia": "Sábado 21/11",
+      "data": "2026-11-21",
+      "tempo": {
+        "estado": "Chuva fraca",
+        "t_min": 9,
+        "t_max": 14,
+        "prob_chuva": 45
+      },
+      "atividades": [
+        {
+          "hora": "09:30",
+          "titulo": "Parque del Retiro: lago, barcos à vista e esquilos",
+          "onde": "Parque del Retiro (Metro Retiro, L2)",
+          "porque": "Abaixo dos 60 % de chuva e cedo, antes das multidões: natureza de graça para gastar energia antes do museu.",
+          "custo": 0,
+          "interior": false,
+          "fonte": "https://www.esmadrid.com/informacion-turistica/parque-del-retiro",
+          "confirmar": "sugestão geral; se estiver a chover a sério, saltar e ir direto ao museu",
+          "duracao_min": 75
+        },
+        {
+          "hora": "11:15",
+          "titulo": "Museo Nacional de Ciencias Naturales",
+          "onde": "Calle de José Gutiérrez Abascal 2 (Metro Gregorio Marañón)",
+          "porque": "Dinossauros, minerais e animais: ciência e natureza em interior, perfeito para um sábado cinzento.",
+          "custo": 11,
+          "interior": true,
+          "fonte": "https://www.mncn.csic.es",
+          "confirmar": "sugestão geral; horário e preço (adulto + criança) no site",
+          "duracao_min": 120
+        },
+        {
+          "hora": "16:30",
+          "titulo": "Planetario de Madrid",
+          "onde": "Parque Tierno Galván (Metro Méndez Álvaro)",
+          "porque": "Depois da sesta, uma sessão às escuras com estrelas: interior, curto e barato.",
+          "custo": 6,
+          "interior": true,
+          "fonte": "https://www.planetmad.es",
+          "confirmar": "sugestão geral; sessões infantis, horários e preço no site",
+          "duracao_min": 90
+        }
+      ]
+    },
+    {
+      "dia": "Domingo 22/11",
+      "data": "2026-11-22",
+      "tempo": {
+        "estado": "Chuva fraca",
+        "t_min": 8,
+        "t_max": 14,
+        "prob_chuva": 55
+      },
+      "atividades": [
+        {
+          "hora": "10:00",
+          "titulo": "Museo del Ferrocarril",
+          "onde": "Antigua estación de Delicias, Paseo de las Delicias 61 (Metro Delicias)",
+          "porque": "Locomotivas a sério numa estação antiga coberta: dá para subir, espreitar e tocar. Chegar à abertura evita filas.",
+          "custo": 10,
+          "interior": true,
+          "fonte": "https://www.museodelferrocarril.org",
+          "confirmar": "sugestão geral; horário de domingo e preço no site",
+          "duracao_min": 150
+        },
+        {
+          "hora": "16:30",
+          "titulo": "Espacio Abierto Quinta de los Molinos",
+          "onde": "Calle Juan Ignacio Luca de Tena 20 (Metro Suanzes)",
+          "porque": "Centro cultural municipal feito de propósito para crianças, com oficinas gratuitas.",
+          "custo": 0,
+          "interior": true,
+          "fonte": "https://www.madrid.es",
+          "confirmar": "sugestão geral; programa de domingo e eventual inscrição prévia no site",
+          "duracao_min": 90
+        }
+      ]
+    }
+  ],
+  "custos_extra": [
+    {
+      "o_que": "metro: cartão Multi com 10 viagens (adulto; até aos 4 anos a criança não paga — confirmar)",
+      "custo": 13
+    }
+  ],
+  "levar": [
+    "guarda-chuva compacto",
+    "impermeável e botas para a criança",
+    "camisola extra (mínimas de 8–9 °C)",
+    "lanche para depois da sesta"
+  ],
+  "notas": [
+    "Total: 40 € de 50 €. Sobram 10 € para imprevistos (ou um chocolate com churros, que não conta como refeição se for partilhado).",
+    "Sesta às 14h nos dois dias: nada marcado entre as 13h30 e as 16h.",
+    "Nenhum evento com data foi encontrado para este fim de semana; os locais são permanentes, mas horários e preços têm de ser confirmados.",
+    "Eventos sem fonte encontrada não entram no plano."
+  ]
+}

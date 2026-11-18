@@ -1,0 +1,78 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//agente-fim-de-semana//PT
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Fim de semana em Lisboa
+BEGIN:VEVENT
+UID:20261121-1000-0-d1e0ddca@agente-fim-de-semana
+DTSTAMP:20261118T164211Z
+DTSTART:20261121T100000
+DTEND:20261121T130000
+SUMMARY:Pavilhão do Conhecimento — exposição "FLORESTA: Uma Experiênc
+ ia de Raiz" e as salas interativas
+DESCRIPTION:Chove a 100 %: ciência onde se pode tocar em tudo\, debaixo de
+  telha. Chegar à abertura para fugir às famílias que acordam tarde.\nCo
+ nfirmar: preço (estimativa: adulto + criança ≈ 18 €) e horário em p
+ avconhecimento.pt\nFonte: https://www.timeout.pt/lisboa/pt/miudos/coisas-p
+ ara-fazer-com-criancas-este-mes-em-lisboa
+LOCATION:Parque das Nações (metro Oriente\, linha vermelha)
+URL:https://www.timeout.pt/lisboa/pt/miudos/coisas-para-fazer-com-criancas-
+ este-mes-em-lisboa
+END:VEVENT
+BEGIN:VEVENT
+UID:20261121-1400-1-16ed8b53@agente-fim-de-semana
+DTSTAMP:20261118T164211Z
+DTSTART:20261121T140000
+DTEND:20261121T163000
+SUMMARY:Sesta
+DESCRIPTION:Não é negociável. Nem pela criança\, nem pelo adulto.\nConf
+ irmar: a criança concordar
+LOCATION:Casa
+END:VEVENT
+BEGIN:VEVENT
+UID:20261121-1630-2-7304619d@agente-fim-de-semana
+DTSTAMP:20261118T164211Z
+DTSTART:20261121T163000
+DTEND:20261121T180000
+SUMMARY:Teatro "Os Macaquinhos do Meu Sótão" (primeira infância)
+DESCRIPTION:Começa depois da sesta\, é para pequenos e é em sala — a c
+ huva fica lá fora.\nConfirmar: bilhetes 7\,50–15 € (estimei 2 × 7\,5
+ 0 €)\, idade mínima e reserva\nFonte: https://www.timeout.pt/lisboa/pt/
+ miudos/coisas-para-fazer-com-criancas-este-mes-em-lisboa
+LOCATION:Casa do Coreto\, Carnide (metro Carnide\, linha azul)
+URL:https://www.timeout.pt/lisboa/pt/miudos/coisas-para-fazer-com-criancas-
+ este-mes-em-lisboa
+END:VEVENT
+BEGIN:VEVENT
+UID:20261122-0930-0-e6fa63ea@agente-fim-de-semana
+DTSTAMP:20261118T164211Z
+DTSTART:20261122T093000
+DTEND:20261122T113000
+SUMMARY:Jardim Botânico Tropical
+DESCRIPTION:O melhor do exterior vai para a manhã: árvores gigantes\, pat
+ os e pavões\, e quase ninguém às 9h30.\nConfirmar: sugestão geral — 
+ horário de abertura e preço (estimativa 5 €\; criança provavelmente g
+ rátis)
+LOCATION:Belém (elétrico 15E ou comboio de Cascais até Belém)
+END:VEVENT
+BEGIN:VEVENT
+UID:20261122-1130-1-eb1e8bdf@agente-fim-de-semana
+DTSTAMP:20261118T164211Z
+DTSTART:20261122T113000
+DTEND:20261122T143000
+SUMMARY:Jardim de Belém e beira-rio até ao Padrão
+DESCRIPTION:Parque infantil\, relva e barcos a passar. Grátis e a pé.\nCo
+ nfirmar: sugestão geral
+LOCATION:Belém\, ao lado do Botânico
+END:VEVENT
+BEGIN:VEVENT
+UID:20261122-1600-2-21de2436@agente-fim-de-semana
+DTSTAMP:20261118T164211Z
+DTSTART:20261122T160000
+DTEND:20261122T173000
+SUMMARY:Jardim da Estrela — parque infantil e lago
+DESCRIPTION:Fecho calmo depois da sesta: escorregas\, patos e um quiosque p
+ ara o lanche.\nConfirmar: sugestão geral
+LOCATION:Estrela (elétrico 28E ou 25E)
+END:VEVENT
+END:VCALENDAR

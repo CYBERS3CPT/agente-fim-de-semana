@@ -1,0 +1,105 @@
+{
+  "cidade": "Lisboa",
+  "fim_de_semana": "21 e 22 de novembro de 2026",
+  "resumo": "Sábado é para molhar só os pés à porta: ciência de manhã e teatro depois da sesta. Domingo de sol: jardins e rio, com a manhã cedo antes da multidão.",
+  "orcamento": 50,
+  "avisos": [],
+  "dias": [
+    {
+      "dia": "Sábado 21/11",
+      "tempo": {
+        "estado": "Chuva/aguaceiros",
+        "t_min": 14,
+        "t_max": 19,
+        "prob_chuva": 100
+      },
+      "atividades": [
+        {
+          "hora": "10:00",
+          "titulo": "Pavilhão do Conhecimento — exposição \"FLORESTA: Uma Experiência de Raiz\" e as salas interativas",
+          "onde": "Parque das Nações (metro Oriente, linha vermelha)",
+          "porque": "Chove a 100 %: ciência onde se pode tocar em tudo, debaixo de telha. Chegar à abertura para fugir às famílias que acordam tarde.",
+          "custo": 18,
+          "interior": true,
+          "fonte": "https://www.timeout.pt/lisboa/pt/miudos/coisas-para-fazer-com-criancas-este-mes-em-lisboa",
+          "confirmar": "preço (estimativa: adulto + criança ≈ 18 €) e horário em pavconhecimento.pt"
+        },
+        {
+          "hora": "14:00",
+          "titulo": "Sesta",
+          "onde": "Casa",
+          "porque": "Não é negociável. Nem pela criança, nem pelo adulto.",
+          "custo": 0,
+          "interior": true,
+          "confirmar": "a criança concordar"
+        },
+        {
+          "hora": "16:30",
+          "titulo": "Teatro \"Os Macaquinhos do Meu Sótão\" (primeira infância)",
+          "onde": "Casa do Coreto, Carnide (metro Carnide, linha azul)",
+          "porque": "Começa depois da sesta, é para pequenos e é em sala — a chuva fica lá fora.",
+          "custo": 15,
+          "interior": true,
+          "fonte": "https://www.timeout.pt/lisboa/pt/miudos/coisas-para-fazer-com-criancas-este-mes-em-lisboa",
+          "confirmar": "bilhetes 7,50–15 € (estimei 2 × 7,50 €), idade mínima e reserva"
+        }
+      ]
+    },
+    {
+      "dia": "Domingo 22/11",
+      "tempo": {
+        "estado": "Céu parcialmente nublado",
+        "t_min": 10,
+        "t_max": 17,
+        "prob_chuva": 0
+      },
+      "atividades": [
+        {
+          "hora": "09:30",
+          "titulo": "Jardim Botânico Tropical",
+          "onde": "Belém (elétrico 15E ou comboio de Cascais até Belém)",
+          "porque": "O melhor do exterior vai para a manhã: árvores gigantes, patos e pavões, e quase ninguém às 9h30.",
+          "custo": 5,
+          "interior": false,
+          "confirmar": "sugestão geral — horário de abertura e preço (estimativa 5 €; criança provavelmente grátis)"
+        },
+        {
+          "hora": "11:30",
+          "titulo": "Jardim de Belém e beira-rio até ao Padrão",
+          "onde": "Belém, ao lado do Botânico",
+          "porque": "Parque infantil, relva e barcos a passar. Grátis e a pé.",
+          "custo": 0,
+          "interior": false,
+          "confirmar": "sugestão geral"
+        },
+        {
+          "hora": "16:00",
+          "titulo": "Jardim da Estrela — parque infantil e lago",
+          "onde": "Estrela (elétrico 28E ou 25E)",
+          "porque": "Fecho calmo depois da sesta: escorregas, patos e um quiosque para o lanche.",
+          "custo": 0,
+          "interior": false,
+          "confirmar": "sugestão geral"
+        }
+      ]
+    }
+  ],
+  "levar": [
+    "guarda-chuva e botas para sábado",
+    "casaco para domingo de manhã (10 °C)",
+    "cartão Navegante/Zapping carregado (transportes ≈ 8 €, confirmar)",
+    "lanche, porque nada custa mais do que uma criança com fome num museu"
+  ],
+  "notas": [
+    "Custos estimados: Pavilhão 18 € + teatro 15 € + Botânico 5 € + transportes ≈ 8 € = ≈ 46 € de 50 €. Margem curta: se os preços vierem mais altos, corta-se o Botânico e troca-se pelo Jardim de Belém (grátis).",
+    "Ficaram de fora: \"As Cartas do Pai Natal\" (15h00, colide com a sesta), \"O Principezinho\" musical (17–19 € por bilhete, rebenta o orçamento) e a Semana da Cultura Científica no Beato (sábado, tem percurso ao ar livre num dia de chuva a 100 %).",
+    "Alternativa de domingo: \"Uma Viagem Ilustrativa\" no Centro Interpretativo Murais de Almada (Gares Marítimas) a 22/11 — a fonte não mostra o ano, por isso não entrou no plano.",
+    "Tempo: IPMA, consultado a 18/11. Eventos: Time Out Lisboa (artigo de 28/10/2026). Nenhum evento fictício do ficheiro de exemplo foi usado."
+  ],
+  "custos_extra": [
+    {
+      "o_que": "transportes",
+      "custo": 8
+    }
+  ]
+}

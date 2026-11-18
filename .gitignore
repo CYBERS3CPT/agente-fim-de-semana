@@ -1,0 +1,9 @@
+# planos gerados (o exemplo oficial vive em exemplos/)
+agente/saida/*
+!agente/saida/.gitkeep
+
+# coisas do sistema e do editor
+.DS_Store
+__pycache__/
+node_modules/
+.claude/settings.local.json

@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//agente-fim-de-semana//PT
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Fim de semana em Braga
+BEGIN:VEVENT
+UID:20261121-1000-0-f0f7bc41@agente-fim-de-semana
+DTSTAMP:20261118T164426Z
+DTSTART:20261121T100000
+DTEND:20261121T113000
+SUMMARY:Museu de Arqueologia D. Diogo de Sousa
+DESCRIPTION:Interior\, Bracara Augusta ao vivo: mosaicos\, moedas e pedras 
+ romanas. Ciência com história\, e chega-se cedo\, sem filas.\nConfirmar:
+  sugestão geral: confirmar horário de sábado\, preço (crianças costum
+ am ser gratuitas) e se há oficina para famílias
+LOCATION:Rua dos Bombeiros Voluntários\, centro de Braga
+END:VEVENT
+BEGIN:VEVENT
+UID:20261121-1200-1-025937e6@agente-fim-de-semana
+DTSTAMP:20261118T164426Z
+DTSTART:20261121T120000
+DTEND:20261121T140000
+SUMMARY:Almoço e regresso a casa para a sesta
+DESCRIPTION:Às 14h dorme-se. É a regra\, e a alternativa é pior.\nConfir
+ mar: sugestão geral: sesta das 14h às 16h
+LOCATION:Centro histórico
+END:VEVENT
+BEGIN:VEVENT
+UID:20261121-1600-2-c1b95bdf@agente-fim-de-semana
+DTSTAMP:20261118T164426Z
+DTSTART:20261121T160000
+DTEND:20261121T173000
+SUMMARY:Secção infantil da Biblioteca Lúcio Craveiro da Silva
+DESCRIPTION:Gratuita\, coberta\, com livros para mexer à vontade. Bom fim 
+ de tarde para um dia molhado.\nConfirmar: sugestão geral: confirmar se ab
+ re ao sábado à tarde e se há hora do conto
+LOCATION:Rua de São Barnabé\, Braga
+END:VEVENT
+BEGIN:VEVENT
+UID:20261122-0930-0-10f346e0@agente-fim-de-semana
+DTSTAMP:20261118T164426Z
+DTSTART:20261122T093000
+DTEND:20261122T120000
+SUMMARY:Bom Jesus do Monte: elevador a água e parque
+DESCRIPTION:O funicular mais antigo do mundo movido a água. Sobe-se no ele
+ vador e desce-se pelo escadório. Há natureza\, lago e espaço para corre
+ r\, e de manhã cedo está vazio.\nConfirmar: sugestão geral: confirmar h
+ orário e preço do elevador ao domingo e a linha TUB para o Bom Jesus
+LOCATION:Tenões (autocarro TUB desde o centro)
+END:VEVENT
+BEGIN:VEVENT
+UID:20261122-1230-1-42cb7d02@agente-fim-de-semana
+DTSTAMP:20261118T164426Z
+DTSTART:20261122T123000
+DTEND:20261122T153000
+SUMMARY:Almoço e sesta
+DESCRIPTION:14h\, sesta. Não se negoceia.\nConfirmar: sugestão geral
+LOCATION:Centro de Braga
+END:VEVENT
+BEGIN:VEVENT
+UID:20261122-1600-2-d66c45a6@agente-fim-de-semana
+DTSTAMP:20261118T164426Z
+DTSTART:20261122T160000
+DTEND:20261122T170000
+SUMMARY:Jardim de Santa Bárbara e passeio pelo centro histórico
+DESCRIPTION:Curto\, a pé e gratuito\, para fechar o fim de semana ao ar li
+ vre antes de escurecer.\nConfirmar: sugestão geral: escurece cedo em nove
+ mbro\, ir antes das 17h
+LOCATION:Junto ao Paço Arquiepiscopal
+END:VEVENT
+END:VCALENDAR

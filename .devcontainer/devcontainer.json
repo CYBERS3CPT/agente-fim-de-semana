@@ -1,0 +1,18 @@
+{
+  // Ambiente "zero instalação": abre este repositório no GitHub Codespaces
+  // (botão no README) e tens Python 3 e Claude Code prontos no terminal.
+  "name": "Agente Fim de semana",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "features": {
+    // O Node vem primeiro: a feature do Claude Code precisa dele para instalar.
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {}
+  },
+  "postCreateCommand": "python3 agente/ferramentas/tempo.py Lisboa || true",
+  "postAttachCommand": "echo '\n👋 Pronto. Escreve:  cd agente && claude\n   (no 1.º arranque faz login; se o browser não abrir, copia o URL e cola o código)\n'",
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["MANUAL.md"]
+    }
+  }
+}

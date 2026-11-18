@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fim de semana em Braga</title>
+<style>
+  :root { --fundo:#FFF8EE; --texto:#2A1E14; --dest:#E8572A; --dest2:#F2B134; --cartao:#FFFFFF; --linha:#F0E3CF; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--fundo); color:var(--texto);
+         font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:880px; margin:0 auto; padding:40px 16px 64px; }
+  .kicker { text-transform:uppercase; letter-spacing:.14em; font-size:12px; font-weight:700; color:var(--dest); margin:0; }
+  h1 { font-size:clamp(32px,6vw,52px); line-height:1.05; margin:.2em 0 .3em; letter-spacing:-.02em; }
+  .resumo { font-size:20px; margin:0 0 20px; }
+  .barra { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:28px; }
+  .pill { background:var(--cartao); border:1px solid var(--linha); border-radius:999px; padding:6px 14px; font-size:14px; }
+  .pill.cal { background:var(--dest); color:#fff; border-color:var(--dest); text-decoration:none; font-weight:700; }
+  .pill.mau { border-color:#C62828; color:#C62828; font-weight:700; }
+  .aviso { background:#FFF3C4; color:#5C4400; border-left:5px solid #F2B134; padding:10px 14px; border-radius:6px; }
+  .dia { background:var(--cartao); border:1px solid var(--linha); border-radius:18px; padding:22px 24px; margin:0 0 22px; }
+  .dia header { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px;
+                border-bottom:3px solid var(--dest2); padding-bottom:12px; margin-bottom:6px; }
+  .dia h2 { margin:0; font-size:24px; }
+  .tempo { display:flex; gap:12px; align-items:center; font-size:15px; }
+  .tempo .ic { font-size:28px; }
+  .num { font-variant-numeric:tabular-nums; font-weight:600; }
+  ol { list-style:none; margin:0; padding:0; }
+  .act { display:grid; grid-template-columns:70px 1fr; gap:14px; padding:16px 0; border-bottom:1px dashed var(--linha); }
+  .act:last-child { border-bottom:0; }
+  .hora { font-weight:800; font-size:18px; color:var(--dest); font-variant-numeric:tabular-nums; }
+  .act h3 { margin:0 0 2px; font-size:19px; }
+  .act p { margin:2px 0; }
+  .onde { font-size:14px; opacity:.8; }
+  .meta { font-size:13px; }
+  .meta a { color:var(--dest); font-weight:600; }
+  .semfonte { opacity:.7; font-style:italic; }
+  .conf { margin-left:8px; color:#9A5B00; }
+  .extra { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; }
+  .extra div { background:var(--cartao); border:1px solid var(--linha); border-radius:14px; padding:16px 20px; }
+  .extra h4 { margin:0 0 6px; }
+  .extra ul { margin:0; padding-left:18px; }
+  footer { margin-top:28px; font-size:13px; opacity:.7; }
+  @media (max-width:520px) { .act { grid-template-columns:1fr; gap:2px; } }
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">Plano feito por um agente · confirma antes de sair de casa</p>
+  <h1>Fim de semana em Braga</h1>
+  <p class="resumo">Sábado de chuva certa (100 %): museu e biblioteca. Domingo de sol tímido: Bom Jesus de manhã cedo, antes de meio Minho ter a mesma ideia.</p>
+  <div class="barra">
+    <span class="pill">📅 21 e 22 de novembro</span>
+    <span class="pill">💶 23 € de 50 € (inclui autocarros TUB (2 dias, incluindo a ida ao Bom Jesus) 12 €)</span>
+    <a class="pill cal" href="plano-braga.ics" download>📅 Pôr no calendário</a>
+  </div>
+  
+  
+  <section class="dia">
+    <header><h2>Sábado 21/11</h2><div class="tempo"><span class="ic">🌧️</span><span>Chuva/aguaceiros</span><span class="num">10–16 °C</span><span class="num">☔ 100%</span></div></header>
+    <ol>
+      <li class="act">
+        <div class="hora">10:00</div>
+        <div class="corpo">
+          <h3>Museu de Arqueologia D. Diogo de Sousa</h3>
+          <p class="onde">Rua dos Bombeiros Voluntários, centro de Braga · 🏠 interior · <b>5 €</b></p>
+          <p class="porque">Interior, Bracara Augusta ao vivo: mosaicos, moedas e pedras romanas. Ciência com história, e chega-se cedo, sem filas.</p>
+          <p class="meta"><span class="semfonte">sem fonte — sugestão geral</span> <span class="conf">⚠ confirmar: sugestão geral: confirmar horário de sábado, preço (crianças costumam ser gratuitas) e se há oficina para famílias</span></p>
+        </div>
+      </li>
+      <li class="act">
+        <div class="hora">12:00</div>
+        <div class="corpo">
+          <h3>Almoço e regresso a casa para a sesta</h3>
+          <p class="onde">Centro histórico · 🏠 interior · <b>grátis</b></p>
+          <p class="porque">Às 14h dorme-se. É a regra, e a alternativa é pior.</p>
+          <p class="meta"><span class="semfonte">sem fonte — sugestão geral</span> <span class="conf">⚠ confirmar: sugestão geral: sesta das 14h às 16h</span></p>
+        </div>
+      </li>
+      <li class="act">
+        <div class="hora">16:00</div>
+        <div class="corpo">
+          <h3>Secção infantil da Biblioteca Lúcio Craveiro da Silva</h3>
+          <p class="onde">Rua de São Barnabé, Braga · 🏠 interior · <b>grátis</b></p>
+          <p class="porque">Gratuita, coberta, com livros para mexer à vontade. Bom fim de tarde para um dia molhado.</p>
+          <p class="meta"><span class="semfonte">sem fonte — sugestão geral</span> <span class="conf">⚠ confirmar: sugestão geral: confirmar se abre ao sábado à tarde e se há hora do conto</span></p>
+        </div>
+      </li>
+    </ol>
+  </section>
+  <section class="dia">
+    <header><h2>Domingo 22/11</h2><div class="tempo"><span class="ic">⛅</span><span>Céu parcialmente nublado</span><span class="num">6–17 °C</span><span class="num">☔ 22%</span></div></header>
+    <ol>
+      <li class="act">
+        <div class="hora">09:30</div>
+        <div class="corpo">
+          <h3>Bom Jesus do Monte: elevador a água e parque</h3>
+          <p class="onde">Tenões (autocarro TUB desde o centro) · 🌳 exterior · <b>6 €</b></p>
+          <p class="porque">O funicular mais antigo do mundo movido a água. Sobe-se no elevador e desce-se pelo escadório. Há natureza, lago e espaço para correr, e de manhã cedo está vazio.</p>
+          <p class="meta"><span class="semfonte">sem fonte — sugestão geral</span> <span class="conf">⚠ confirmar: sugestão geral: confirmar horário e preço do elevador ao domingo e a linha TUB para o Bom Jesus</span></p>
+        </div>
+      </li>
+      <li class="act">
+        <div class="hora">12:30</div>
+        <div class="corpo">
+          <h3>Almoço e sesta</h3>
+          <p class="onde">Centro de Braga · 🏠 interior · <b>grátis</b></p>
+          <p class="porque">14h, sesta. Não se negoceia.</p>
+          <p class="meta"><span class="semfonte">sem fonte — sugestão geral</span> <span class="conf">⚠ confirmar: sugestão geral</span></p>
+        </div>
+      </li>
+      <li class="act">
+        <div class="hora">16:00</div>
+        <div class="corpo">
+          <h3>Jardim de Santa Bárbara e passeio pelo centro histórico</h3>
+          <p class="onde">Junto ao Paço Arquiepiscopal · 🌳 exterior · <b>grátis</b></p>
+          <p class="porque">Curto, a pé e gratuito, para fechar o fim de semana ao ar livre antes de escurecer.</p>
+          <p class="meta"><span class="semfonte">sem fonte — sugestão geral</span> <span class="conf">⚠ confirmar: sugestão geral: escurece cedo em novembro, ir antes das 17h</span></p>
+        </div>
+      </li>
+    </ol>
+  </section>
+  <div class="extra">
+    <div><h4>🎒 Levar</h4><ul><li>guarda-chuva e botas para sábado</li><li>casaco quente para domingo de manhã (6 °C)</li><li>sapatos confortáveis para o escadório</li></ul></div>
+    <div><h4>📝 Notas do agente</h4><ul><li>Não encontrei na web eventos com data, local e link fiáveis para Braga neste fim de semana: todas as atividades são sugestões gerais a confirmar.</li><li>O festival FENDA aparece em pesquisa para 22 a 26 de novembro, mas a página é de 2024/2025 e não confirma 2026, por isso ficou de fora.</li><li>Custos estimados: cerca de 23 € no total, folga larga para os 50 €.</li></ul></div>
+  </div>
+  <footer>Gerado pelo agente “Fim de semana” · Tempo: dados oficiais · Eventos: só os que têm fonte.
+  Um agente pode enganar-se; tu é que vais apanhar a chuva.</footer>
+</main>
+</body>
+</html>

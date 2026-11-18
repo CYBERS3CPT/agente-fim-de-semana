@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fim de semana em Madrid</title>
+<style>
+  :root { --fundo:#FFF8EE; --texto:#2A1E14; --dest:#E8572A; --dest2:#F2B134; --cartao:#FFFFFF; --linha:#F0E3CF; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--fundo); color:var(--texto);
+         font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:880px; margin:0 auto; padding:40px 16px 64px; }
+  .kicker { text-transform:uppercase; letter-spacing:.14em; font-size:12px; font-weight:700; color:var(--dest); margin:0; }
+  h1 { font-size:clamp(32px,6vw,52px); line-height:1.05; margin:.2em 0 .3em; letter-spacing:-.02em; }
+  .resumo { font-size:20px; margin:0 0 20px; }
+  .barra { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:28px; }
+  .pill { background:var(--cartao); border:1px solid var(--linha); border-radius:999px; padding:6px 14px; font-size:14px; }
+  .pill.cal { background:var(--dest); color:#fff; border-color:var(--dest); text-decoration:none; font-weight:700; }
+  .pill.mau { border-color:#C62828; color:#C62828; font-weight:700; }
+  .aviso { background:#FFF3C4; color:#5C4400; border-left:5px solid #F2B134; padding:10px 14px; border-radius:6px; }
+  .dia { background:var(--cartao); border:1px solid var(--linha); border-radius:18px; padding:22px 24px; margin:0 0 22px; }
+  .dia header { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px;
+                border-bottom:3px solid var(--dest2); padding-bottom:12px; margin-bottom:6px; }
+  .dia h2 { margin:0; font-size:24px; }
+  .tempo { display:flex; gap:12px; align-items:center; font-size:15px; }
+  .tempo .ic { font-size:28px; }
+  .num { font-variant-numeric:tabular-nums; font-weight:600; }
+  ol { list-style:none; margin:0; padding:0; }
+  .act { display:grid; grid-template-columns:70px 1fr; gap:14px; padding:16px 0; border-bottom:1px dashed var(--linha); }
+  .act:last-child { border-bottom:0; }
+  .hora { font-weight:800; font-size:18px; color:var(--dest); font-variant-numeric:tabular-nums; }
+  .act h3 { margin:0 0 2px; font-size:19px; }
+  .act p { margin:2px 0; }
+  .onde { font-size:14px; opacity:.8; }
+  .meta { font-size:13px; }
+  .meta a { color:var(--dest); font-weight:600; }
+  .semfonte { opacity:.7; font-style:italic; }
+  .conf { margin-left:8px; color:#9A5B00; }
+  .extra { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; }
+  .extra div { background:var(--cartao); border:1px solid var(--linha); border-radius:14px; padding:16px 20px; }
+  .extra h4 { margin:0 0 6px; }
+  .extra ul { margin:0; padding-left:18px; }
+  footer { margin-top:28px; font-size:13px; opacity:.7; }
+  @media (max-width:520px) { .act { grid-template-columns:1fr; gap:2px; } }
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">Plano feito por um agente · confirma antes de sair de casa</p>
+  <h1>Fim de semana em Madrid</h1>
+  <p class="resumo">Dois dias de chuva fraca e mais nada (45 % e 55 %): um passeio curto no Retiro logo cedo, depois dinossauros, estrelas e comboios a sério, tudo debaixo de telha.</p>
+  <div class="barra">
+    <span class="pill">📅 21 e 22 de novembro</span>
+    <span class="pill">💶 40 € de 50 € (inclui metro: cartão Multi com 10 viagens (adulto; até aos 4 anos a criança não paga — confirmar) 13 €)</span>
+    <a class="pill cal" href="plano-madrid.ics" download>📅 Pôr no calendário</a>
+  </div>
+  <p class="aviso">⚠️ O Open-Meteo não publica avisos oficiais: confirmar na AEMET (aemet.es) na véspera.</p><p class="aviso">⚠️ Não encontrei agenda fiável com data para 21–22/11: todas as atividades são sugestões gerais em locais permanentes, marcadas para confirmar.</p>
+  
+  <section class="dia">
+    <header><h2>Sábado 21/11</h2><div class="tempo"><span class="ic">🌧️</span><span>Chuva fraca</span><span class="num">9–14 °C</span><span class="num">☔ 45%</span></div></header>
+    <ol>
+      <li class="act">
+        <div class="hora">09:30</div>
+        <div class="corpo">
+          <h3>Parque del Retiro: lago, barcos à vista e esquilos</h3>
+          <p class="onde">Parque del Retiro (Metro Retiro, L2) · 🌳 exterior · <b>grátis</b></p>
+          <p class="porque">Abaixo dos 60 % de chuva e cedo, antes das multidões: natureza de graça para gastar energia antes do museu.</p>
+          <p class="meta"><a href="https://www.esmadrid.com/informacion-turistica/parque-del-retiro" target="_blank" rel="noopener">fonte</a> <span class="conf">⚠ confirmar: sugestão geral; se estiver a chover a sério, saltar e ir direto ao museu</span></p>
+        </div>
+      </li>
+      <li class="act">
+        <div class="hora">11:15</div>
+        <div class="corpo">
+          <h3>Museo Nacional de Ciencias Naturales</h3>
+          <p class="onde">Calle de José Gutiérrez Abascal 2 (Metro Gregorio Marañón) · 🏠 interior · <b>11 €</b></p>
+          <p class="porque">Dinossauros, minerais e animais: ciência e natureza em interior, perfeito para um sábado cinzento.</p>
+          <p class="meta"><a href="https://www.mncn.csic.es" target="_blank" rel="noopener">fonte</a> <span class="conf">⚠ confirmar: sugestão geral; horário e preço (adulto + criança) no site</span></p>
+        </div>
+      </li>
+      <li class="act">
+        <div class="hora">16:30</div>
+        <div class="corpo">
+          <h3>Planetario de Madrid</h3>
+          <p class="onde">Parque Tierno Galván (Metro Méndez Álvaro) · 🏠 interior · <b>6 €</b></p>
+          <p class="porque">Depois da sesta, uma sessão às escuras com estrelas: interior, curto e barato.</p>
+          <p class="meta"><a href="https://www.planetmad.es" target="_blank" rel="noopener">fonte</a> <span class="conf">⚠ confirmar: sugestão geral; sessões infantis, horários e preço no site</span></p>
+        </div>
+      </li>
+    </ol>
+  </section>
+  <section class="dia">
+    <header><h2>Domingo 22/11</h2><div class="tempo"><span class="ic">🌧️</span><span>Chuva fraca</span><span class="num">8–14 °C</span><span class="num">☔ 55%</span></div></header>
+    <ol>
+      <li class="act">
+        <div class="hora">10:00</div>
+        <div class="corpo">
+          <h3>Museo del Ferrocarril</h3>
+          <p class="onde">Antigua estación de Delicias, Paseo de las Delicias 61 (Metro Delicias) · 🏠 interior · <b>10 €</b></p>
+          <p class="porque">Locomotivas a sério numa estação antiga coberta: dá para subir, espreitar e tocar. Chegar à abertura evita filas.</p>
+          <p class="meta"><a href="https://www.museodelferrocarril.org" target="_blank" rel="noopener">fonte</a> <span class="conf">⚠ confirmar: sugestão geral; horário de domingo e preço no site</span></p>
+        </div>
+      </li>
+      <li class="act">
+        <div class="hora">16:30</div>
+        <div class="corpo">
+          <h3>Espacio Abierto Quinta de los Molinos</h3>
+          <p class="onde">Calle Juan Ignacio Luca de Tena 20 (Metro Suanzes) · 🏠 interior · <b>grátis</b></p>
+          <p class="porque">Centro cultural municipal feito de propósito para crianças, com oficinas gratuitas.</p>
+          <p class="meta"><a href="https://www.madrid.es" target="_blank" rel="noopener">fonte</a> <span class="conf">⚠ confirmar: sugestão geral; programa de domingo e eventual inscrição prévia no site</span></p>
+        </div>
+      </li>
+    </ol>
+  </section>
+  <div class="extra">
+    <div><h4>🎒 Levar</h4><ul><li>guarda-chuva compacto</li><li>impermeável e botas para a criança</li><li>camisola extra (mínimas de 8–9 °C)</li><li>lanche para depois da sesta</li></ul></div>
+    <div><h4>📝 Notas do agente</h4><ul><li>Total: 40 € de 50 €. Sobram 10 € para imprevistos (ou um chocolate com churros, que não conta como refeição se for partilhado).</li><li>Sesta às 14h nos dois dias: nada marcado entre as 13h30 e as 16h.</li><li>Nenhum evento com data foi encontrado para este fim de semana; os locais são permanentes, mas horários e preços têm de ser confirmados.</li><li>Eventos sem fonte encontrada não entram no plano.</li></ul></div>
+  </div>
+  <footer>Gerado pelo agente “Fim de semana” · Tempo: dados oficiais · Eventos: só os que têm fonte.
+  Um agente pode enganar-se; tu é que vais apanhar a chuva.</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,115 @@
+{
+  "cidade": "Braga",
+  "fim_de_semana": "21 e 22 de novembro",
+  "resumo": "Sábado de chuva certa (100 %): museu e biblioteca. Domingo de sol tímido: Bom Jesus de manhã cedo, antes de meio Minho ter a mesma ideia.",
+  "orcamento": 50,
+  "avisos": [],
+  "dias": [
+    {
+      "dia": "Sábado 21/11",
+      "data": "2026-11-21",
+      "tempo": {
+        "estado": "Chuva/aguaceiros",
+        "t_min": 10,
+        "t_max": 16,
+        "prob_chuva": 100
+      },
+      "atividades": [
+        {
+          "hora": "10:00",
+          "titulo": "Museu de Arqueologia D. Diogo de Sousa",
+          "onde": "Rua dos Bombeiros Voluntários, centro de Braga",
+          "porque": "Interior, Bracara Augusta ao vivo: mosaicos, moedas e pedras romanas. Ciência com história, e chega-se cedo, sem filas.",
+          "custo": 5,
+          "interior": true,
+          "fonte": "",
+          "confirmar": "sugestão geral: confirmar horário de sábado, preço (crianças costumam ser gratuitas) e se há oficina para famílias",
+          "duracao_min": 90
+        },
+        {
+          "hora": "12:00",
+          "titulo": "Almoço e regresso a casa para a sesta",
+          "onde": "Centro histórico",
+          "porque": "Às 14h dorme-se. É a regra, e a alternativa é pior.",
+          "custo": 0,
+          "interior": true,
+          "fonte": "",
+          "confirmar": "sugestão geral: sesta das 14h às 16h",
+          "duracao_min": 120
+        },
+        {
+          "hora": "16:00",
+          "titulo": "Secção infantil da Biblioteca Lúcio Craveiro da Silva",
+          "onde": "Rua de São Barnabé, Braga",
+          "porque": "Gratuita, coberta, com livros para mexer à vontade. Bom fim de tarde para um dia molhado.",
+          "custo": 0,
+          "interior": true,
+          "fonte": "",
+          "confirmar": "sugestão geral: confirmar se abre ao sábado à tarde e se há hora do conto",
+          "duracao_min": 90
+        }
+      ]
+    },
+    {
+      "dia": "Domingo 22/11",
+      "data": "2026-11-22",
+      "tempo": {
+        "estado": "Céu parcialmente nublado",
+        "t_min": 6,
+        "t_max": 17,
+        "prob_chuva": 22
+      },
+      "atividades": [
+        {
+          "hora": "09:30",
+          "titulo": "Bom Jesus do Monte: elevador a água e parque",
+          "onde": "Tenões (autocarro TUB desde o centro)",
+          "porque": "O funicular mais antigo do mundo movido a água. Sobe-se no elevador e desce-se pelo escadório. Há natureza, lago e espaço para correr, e de manhã cedo está vazio.",
+          "custo": 6,
+          "interior": false,
+          "fonte": "",
+          "confirmar": "sugestão geral: confirmar horário e preço do elevador ao domingo e a linha TUB para o Bom Jesus",
+          "duracao_min": 150
+        },
+        {
+          "hora": "12:30",
+          "titulo": "Almoço e sesta",
+          "onde": "Centro de Braga",
+          "porque": "14h, sesta. Não se negoceia.",
+          "custo": 0,
+          "interior": true,
+          "fonte": "",
+          "confirmar": "sugestão geral",
+          "duracao_min": 180
+        },
+        {
+          "hora": "16:00",
+          "titulo": "Jardim de Santa Bárbara e passeio pelo centro histórico",
+          "onde": "Junto ao Paço Arquiepiscopal",
+          "porque": "Curto, a pé e gratuito, para fechar o fim de semana ao ar livre antes de escurecer.",
+          "custo": 0,
+          "interior": false,
+          "fonte": "",
+          "confirmar": "sugestão geral: escurece cedo em novembro, ir antes das 17h",
+          "duracao_min": 60
+        }
+      ]
+    }
+  ],
+  "custos_extra": [
+    {
+      "o_que": "autocarros TUB (2 dias, incluindo a ida ao Bom Jesus)",
+      "custo": 12
+    }
+  ],
+  "levar": [
+    "guarda-chuva e botas para sábado",
+    "casaco quente para domingo de manhã (6 °C)",
+    "sapatos confortáveis para o escadório"
+  ],
+  "notas": [
+    "Não encontrei na web eventos com data, local e link fiáveis para Braga neste fim de semana: todas as atividades são sugestões gerais a confirmar.",
+    "O festival FENDA aparece em pesquisa para 22 a 26 de novembro, mas a página é de 2024/2025 e não confirma 2026, por isso ficou de fora.",
+    "Custos estimados: cerca de 23 € no total, folga larga para os 50 €."
+  ]
+}

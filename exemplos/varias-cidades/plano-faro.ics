@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//agente-fim-de-semana//PT
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Fim de semana em Faro
+BEGIN:VEVENT
+UID:20261121-1000-0-4bf3320e@agente-fim-de-semana
+DTSTAMP:20261118T164415Z
+DTSTART:20261121T100000
+DTEND:20261121T120000
+SUMMARY:Centro Ciência Viva do Algarve
+DESCRIPTION:Interior\, experiências onde se mexe em tudo\, e fica a 5 minu
+ tos a pé da estação. Chegar à abertura é a melhor maneira de fugir ao
+ s outros pais que tiveram a mesma ideia.\nConfirmar: sugestão geral: conf
+ irmar horário de sábado e preço (estimativa adulto + criança)\nFonte: 
+ https://www.ccvalg.pt
+LOCATION:Rua Comandante Francisco Manuel\, junto à doca
+URL:https://www.ccvalg.pt
+END:VEVENT
+BEGIN:VEVENT
+UID:20261121-1600-1-4a5a9a76@agente-fim-de-semana
+DTSTAMP:20261118T164415Z
+DTSTART:20261121T160000
+DTEND:20261121T171500
+SUMMARY:Museu Municipal de Faro
+DESCRIPTION:Depois da sesta: claustro coberto\, mosaico romano do Oceano e 
+ uma volta curta. Se a chuva parar\, entra-se pelo Arco da Vila.\nConfirmar
+ : sugestão geral: confirmar horário de sábado e preço\nFonte: https://
+ www.cm-faro.pt
+LOCATION:Convento de Nossa Senhora da Assunção\, Cidade Velha
+URL:https://www.cm-faro.pt
+END:VEVENT
+BEGIN:VEVENT
+UID:20261122-0930-0-5e946770@agente-fim-de-semana
+DTSTAMP:20261118T164415Z
+DTSTART:20261122T093000
+DTEND:20261122T120000
+SUMMARY:Praia de Faro e passadiços da Ria Formosa
+DESCRIPTION:Natureza a sério: caranguejos na lama da ria\, aves\, conchas 
+ na areia. Em novembro e cedo\, a praia é praticamente vossa.\nConfirmar: 
+ sugestão geral: confirmar horário do autocarro 16 ao domingo
+LOCATION:Praia de Faro (autocarro 16 desde o centro)
+END:VEVENT
+BEGIN:VEVENT
+UID:20261122-1600-1-ac24fb86@agente-fim-de-semana
+DTSTAMP:20261118T164415Z
+DTSTART:20261122T160000
+DTEND:20261122T170000
+SUMMARY:Jardim Manuel Bívar e Doca de Faro
+DESCRIPTION:Passeio curto a seguir à sesta\, a ver barcos e cegonhas nos t
+ elhados da Cidade Velha. Sem bilhete\, sem fila.\nConfirmar: sugestão ger
+ al
+LOCATION:Baixa de Faro\, junto à marina
+END:VEVENT
+END:VCALENDAR

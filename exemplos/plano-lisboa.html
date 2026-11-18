@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fim de semana em Lisboa</title>
+<style>
+  :root { --fundo:#FFF8EE; --texto:#2A1E14; --dest:#E8572A; --dest2:#F2B134; --cartao:#FFFFFF; --linha:#F0E3CF; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--fundo); color:var(--texto);
+         font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:880px; margin:0 auto; padding:40px 16px 64px; }
+  .kicker { text-transform:uppercase; letter-spacing:.14em; font-size:12px; font-weight:700; color:var(--dest); margin:0; }
+  h1 { font-size:clamp(32px,6vw,52px); line-height:1.05; margin:.2em 0 .3em; letter-spacing:-.02em; }
+  .resumo { font-size:20px; margin:0 0 20px; }
+  .barra { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:28px; }
+  .pill { background:var(--cartao); border:1px solid var(--linha); border-radius:999px; padding:6px 14px; font-size:14px; }
+  .pill.cal { background:var(--dest); color:#fff; border-color:var(--dest); text-decoration:none; font-weight:700; }
+  .pill.mau { border-color:#C62828; color:#C62828; font-weight:700; }
+  .aviso { background:#FFF3C4; color:#5C4400; border-left:5px solid #F2B134; padding:10px 14px; border-radius:6px; }
+  .dia { background:var(--cartao); border:1px solid var(--linha); border-radius:18px; padding:22px 24px; margin:0 0 22px; }
+  .dia header { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px;
+                border-bottom:3px solid var(--dest2); padding-bottom:12px; margin-bottom:6px; }
+  .dia h2 { margin:0; font-size:24px; }
+  .tempo { display:flex; gap:12px; align-items:center; font-size:15px; }
+  .tempo .ic { font-size:28px; }
+  .num { font-variant-numeric:tabular-nums; font-weight:600; }
+  ol { list-style:none; margin:0; padding:0; }
+  .act { display:grid; grid-template-columns:70px 1fr; gap:14px; padding:16px 0; border-bottom:1px dashed var(--linha); }
+  .act:last-child { border-bottom:0; }
+  .hora { font-weight:800; font-size:18px; color:var(--dest); font-variant-numeric:tabular-nums; }
+  .act h3 { margin:0 0 2px; font-size:19px; }
+  .act p { margin:2px 0; }
+  .onde { font-size:14px; opacity:.8; }
+  .meta { font-size:13px; }
+  .meta a { color:var(--dest); font-weight:600; }
+  .semfonte { opacity:.7; font-style:italic; }
+  .conf { margin-left:8px; color:#9A5B00; }
+  .extra { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; }
+  .extra div { background:var(--cartao); border:1px solid var(--linha); border-radius:14px; padding:16px 20px; }
+  .extra h4 { margin:0 0 6px; }
+  .extra ul { margin:0; padding-left:18px; }
+  footer { margin-top:28px; font-size:13px; opacity:.7; }
+  @media (max-width:520px) { .act { grid-template-columns:1fr; gap:2px; } }
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">Plano feito por um agente · confirma antes de sair de casa</p>
+  <h1>Fim de semana em Lisboa</h1>
+  <p class="resumo">Sábado é para molhar só os pés à porta: ciência de manhã e teatro depois da sesta. Domingo de sol: jardins e rio, com a manhã cedo antes da multidão.</p>
+  <div class="barra">
+    <span class="pill">📅 21 e 22 de novembro de 2026</span>
+    <span class="pill">💶 46 € de 50 € (inclui transportes 8 €)</span>
+    <a class="pill cal" href="plano-lisboa.ics" download>📅 Pôr no calendário</a>
+  </div>
+  
+  
+  <section class="dia">
+    <header><h2>Sábado 21/11</h2><div class="tempo"><span class="ic">🌧️</span><span>Chuva/aguaceiros</span><span class="num">14–19 °C</span><span class="num">☔ 100%</span></div></header>
+    <ol>
+      <li class="act">
+        <div class="hora">10:00</div>
+        <div class="corpo">
+          <h3>Pavilhão do Conhecimento — exposição &quot;FLORESTA: Uma Experiência de Raiz&quot; e as salas interativas</h3>
+          <p class="onde">Parque das Nações (metro Oriente, linha vermelha) · 🏠 interior · <b>18 €</b></p>
+          <p class="porque">Chove a 100 %: ciência onde se pode tocar em tudo, debaixo de telha. Chegar à abertura para fugir às famílias que acordam tarde.</p>
+          <p class="meta"><a href="https://www.timeout.pt/lisboa/pt/miudos/coisas-para-fazer-com-criancas-este-mes-em-lisboa" target="_blank" rel="noopener">fonte</a> <span class="conf">⚠ confirmar: preço (estimativa: adulto + criança ≈ 18 €) e horário em pavconhecimento.pt</span></p>
+        </div>
+      </li>
+      <li class="act">
+        <div class="hora">14:00</div>
+        <div class="corpo">
+          <h3>Sesta</h3>
+          <p class="onde">Casa · 🏠 interior · <b>grátis</b></p>
+          <p class="porque">Não é negociável. Nem pela criança, nem pelo adulto.</p>
+          <p class="meta"><span class="semfonte">sem fonte — sugestão geral</span> <span class="conf">⚠ confirmar: a criança concordar</span></p>
+        </div>
+      </li>
+      <li class="act">
+        <div class="hora">16:30</div>
+        <div class="corpo">
+          <h3>Teatro &quot;Os Macaquinhos do Meu Sótão&quot; (primeira infância)</h3>
+          <p class="onde">Casa do Coreto, Carnide (metro Carnide, linha azul) · 🏠 interior · <b>15 €</b></p>
+          <p class="porque">Começa depois da sesta, é para pequenos e é em sala — a chuva fica lá fora.</p>
+          <p class="meta"><a href="https://www.timeout.pt/lisboa/pt/miudos/coisas-para-fazer-com-criancas-este-mes-em-lisboa" target="_blank" rel="noopener">fonte</a> <span class="conf">⚠ confirmar: bilhetes 7,50–15 € (estimei 2 × 7,50 €), idade mínima e reserva</span></p>
+        </div>
+      </li>
+    </ol>
+  </section>
+  <section class="dia">
+    <header><h2>Domingo 22/11</h2><div class="tempo"><span class="ic">⛅</span><span>Céu parcialmente nublado</span><span class="num">10–17 °C</span><span class="num">☔ 0%</span></div></header>
+    <ol>
+      <li class="act">
+        <div class="hora">09:30</div>
+        <div class="corpo">
+          <h3>Jardim Botânico Tropical</h3>
+          <p class="onde">Belém (elétrico 15E ou comboio de Cascais até Belém) · 🌳 exterior · <b>5 €</b></p>
+          <p class="porque">O melhor do exterior vai para a manhã: árvores gigantes, patos e pavões, e quase ninguém às 9h30.</p>
+          <p class="meta"><span class="semfonte">sem fonte — sugestão geral</span> <span class="conf">⚠ confirmar: sugestão geral — horário de abertura e preço (estimativa 5 €; criança provavelmente grátis)</span></p>
+        </div>
+      </li>
+      <li class="act">
+        <div class="hora">11:30</div>
+        <div class="corpo">
+          <h3>Jardim de Belém e beira-rio até ao Padrão</h3>
+          <p class="onde">Belém, ao lado do Botânico · 🌳 exterior · <b>grátis</b></p>
+          <p class="porque">Parque infantil, relva e barcos a passar. Grátis e a pé.</p>
+          <p class="meta"><span class="semfonte">sem fonte — sugestão geral</span> <span class="conf">⚠ confirmar: sugestão geral</span></p>
+        </div>
+      </li>
+      <li class="act">
+        <div class="hora">16:00</div>
+        <div class="corpo">
+          <h3>Jardim da Estrela — parque infantil e lago</h3>
+          <p class="onde">Estrela (elétrico 28E ou 25E) · 🌳 exterior · <b>grátis</b></p>
+          <p class="porque">Fecho calmo depois da sesta: escorregas, patos e um quiosque para o lanche.</p>
+          <p class="meta"><span class="semfonte">sem fonte — sugestão geral</span> <span class="conf">⚠ confirmar: sugestão geral</span></p>
+        </div>
+      </li>
+    </ol>
+  </section>
+  <div class="extra">
+    <div><h4>🎒 Levar</h4><ul><li>guarda-chuva e botas para sábado</li><li>casaco para domingo de manhã (10 °C)</li><li>cartão Navegante/Zapping carregado (transportes ≈ 8 €, confirmar)</li><li>lanche, porque nada custa mais do que uma criança com fome num museu</li></ul></div>
+    <div><h4>📝 Notas do agente</h4><ul><li>Custos estimados: Pavilhão 18 € + teatro 15 € + Botânico 5 € + transportes ≈ 8 € = ≈ 46 € de 50 €. Margem curta: se os preços vierem mais altos, corta-se o Botânico e troca-se pelo Jardim de Belém (grátis).</li><li>Ficaram de fora: &quot;As Cartas do Pai Natal&quot; (15h00, colide com a sesta), &quot;O Principezinho&quot; musical (17–19 € por bilhete, rebenta o orçamento) e a Semana da Cultura Científica no Beato (sábado, tem percurso ao ar livre num dia de chuva a 100 %).</li><li>Alternativa de domingo: &quot;Uma Viagem Ilustrativa&quot; no Centro Interpretativo Murais de Almada (Gares Marítimas) a 22/11 — a fonte não mostra o ano, por isso não entrou no plano.</li><li>Tempo: IPMA, consultado a 18/11. Eventos: Time Out Lisboa (artigo de 28/10/2026). Nenhum evento fictício do ficheiro de exemplo foi usado.</li></ul></div>
+  </div>
+  <footer>Gerado pelo agente “Fim de semana” · Tempo: dados oficiais · Eventos: só os que têm fonte.
+  Um agente pode enganar-se; tu é que vais apanhar a chuva.</footer>
+</main>
+</body>
+</html>

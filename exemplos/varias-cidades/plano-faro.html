@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fim de semana em Faro</title>
+<style>
+  :root { --fundo:#FFF8EE; --texto:#2A1E14; --dest:#E8572A; --dest2:#F2B134; --cartao:#FFFFFF; --linha:#F0E3CF; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--fundo); color:var(--texto);
+         font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:880px; margin:0 auto; padding:40px 16px 64px; }
+  .kicker { text-transform:uppercase; letter-spacing:.14em; font-size:12px; font-weight:700; color:var(--dest); margin:0; }
+  h1 { font-size:clamp(32px,6vw,52px); line-height:1.05; margin:.2em 0 .3em; letter-spacing:-.02em; }
+  .resumo { font-size:20px; margin:0 0 20px; }
+  .barra { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:28px; }
+  .pill { background:var(--cartao); border:1px solid var(--linha); border-radius:999px; padding:6px 14px; font-size:14px; }
+  .pill.cal { background:var(--dest); color:#fff; border-color:var(--dest); text-decoration:none; font-weight:700; }
+  .pill.mau { border-color:#C62828; color:#C62828; font-weight:700; }
+  .aviso { background:#FFF3C4; color:#5C4400; border-left:5px solid #F2B134; padding:10px 14px; border-radius:6px; }
+  .dia { background:var(--cartao); border:1px solid var(--linha); border-radius:18px; padding:22px 24px; margin:0 0 22px; }
+  .dia header { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px;
+                border-bottom:3px solid var(--dest2); padding-bottom:12px; margin-bottom:6px; }
+  .dia h2 { margin:0; font-size:24px; }
+  .tempo { display:flex; gap:12px; align-items:center; font-size:15px; }
+  .tempo .ic { font-size:28px; }
+  .num { font-variant-numeric:tabular-nums; font-weight:600; }
+  ol { list-style:none; margin:0; padding:0; }
+  .act { display:grid; grid-template-columns:70px 1fr; gap:14px; padding:16px 0; border-bottom:1px dashed var(--linha); }
+  .act:last-child { border-bottom:0; }
+  .hora { font-weight:800; font-size:18px; color:var(--dest); font-variant-numeric:tabular-nums; }
+  .act h3 { margin:0 0 2px; font-size:19px; }
+  .act p { margin:2px 0; }
+  .onde { font-size:14px; opacity:.8; }
+  .meta { font-size:13px; }
+  .meta a { color:var(--dest); font-weight:600; }
+  .semfonte { opacity:.7; font-style:italic; }
+  .conf { margin-left:8px; color:#9A5B00; }
+  .extra { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; }
+  .extra div { background:var(--cartao); border:1px solid var(--linha); border-radius:14px; padding:16px 20px; }
+  .extra h4 { margin:0 0 6px; }
+  .extra ul { margin:0; padding-left:18px; }
+  footer { margin-top:28px; font-size:13px; opacity:.7; }
+  @media (max-width:520px) { .act { grid-template-columns:1fr; gap:2px; } }
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">Plano feito por um agente · confirma antes de sair de casa</p>
+  <h1>Fim de semana em Faro</h1>
+  <p class="resumo">Sábado de chuva com ciência e museu, domingo de sol com a Ria Formosa logo de manhã, antes de toda a gente acordar.</p>
+  <div class="barra">
+    <span class="pill">📅 21 e 22 de novembro</span>
+    <span class="pill">💶 18 € de 50 € (inclui autocarro Praia de Faro, ida e volta (adulto + criança) 8 €)</span>
+    <a class="pill cal" href="plano-faro.ics" download>📅 Pôr no calendário</a>
+  </div>
+  
+  
+  <section class="dia">
+    <header><h2>Sábado 21/11</h2><div class="tempo"><span class="ic">🌧️</span><span>Aguaceiros/chuva</span><span class="num">11–20 °C</span><span class="num">☔ 75%</span></div></header>
+    <ol>
+      <li class="act">
+        <div class="hora">10:00</div>
+        <div class="corpo">
+          <h3>Centro Ciência Viva do Algarve</h3>
+          <p class="onde">Rua Comandante Francisco Manuel, junto à doca · 🏠 interior · <b>8 €</b></p>
+          <p class="porque">Interior, experiências onde se mexe em tudo, e fica a 5 minutos a pé da estação. Chegar à abertura é a melhor maneira de fugir aos outros pais que tiveram a mesma ideia.</p>
+          <p class="meta"><a href="https://www.ccvalg.pt" target="_blank" rel="noopener">fonte</a> <span class="conf">⚠ confirmar: sugestão geral: confirmar horário de sábado e preço (estimativa adulto + criança)</span></p>
+        </div>
+      </li>
+      <li class="act">
+        <div class="hora">16:00</div>
+        <div class="corpo">
+          <h3>Museu Municipal de Faro</h3>
+          <p class="onde">Convento de Nossa Senhora da Assunção, Cidade Velha · 🏠 interior · <b>2 €</b></p>
+          <p class="porque">Depois da sesta: claustro coberto, mosaico romano do Oceano e uma volta curta. Se a chuva parar, entra-se pelo Arco da Vila.</p>
+          <p class="meta"><a href="https://www.cm-faro.pt" target="_blank" rel="noopener">fonte</a> <span class="conf">⚠ confirmar: sugestão geral: confirmar horário de sábado e preço</span></p>
+        </div>
+      </li>
+    </ol>
+  </section>
+  <section class="dia">
+    <header><h2>Domingo 22/11</h2><div class="tempo"><span class="ic">☁️</span><span>Céu nublado por nuvens altas</span><span class="num">11–19 °C</span><span class="num">☔ 2%</span></div></header>
+    <ol>
+      <li class="act">
+        <div class="hora">09:30</div>
+        <div class="corpo">
+          <h3>Praia de Faro e passadiços da Ria Formosa</h3>
+          <p class="onde">Praia de Faro (autocarro 16 desde o centro) · 🌳 exterior · <b>grátis</b></p>
+          <p class="porque">Natureza a sério: caranguejos na lama da ria, aves, conchas na areia. Em novembro e cedo, a praia é praticamente vossa.</p>
+          <p class="meta"><span class="semfonte">sem fonte — sugestão geral</span> <span class="conf">⚠ confirmar: sugestão geral: confirmar horário do autocarro 16 ao domingo</span></p>
+        </div>
+      </li>
+      <li class="act">
+        <div class="hora">16:00</div>
+        <div class="corpo">
+          <h3>Jardim Manuel Bívar e Doca de Faro</h3>
+          <p class="onde">Baixa de Faro, junto à marina · 🌳 exterior · <b>grátis</b></p>
+          <p class="porque">Passeio curto a seguir à sesta, a ver barcos e cegonhas nos telhados da Cidade Velha. Sem bilhete, sem fila.</p>
+          <p class="meta"><span class="semfonte">sem fonte — sugestão geral</span> <span class="conf">⚠ confirmar: sugestão geral</span></p>
+        </div>
+      </li>
+    </ol>
+  </section>
+  <div class="extra">
+    <div><h4>🎒 Levar</h4><ul><li>guarda-chuva e impermeável para sábado</li><li>casaco corta-vento para a praia no domingo</li><li>balde e pá (a areia em novembro também conta)</li></ul></div>
+    <div><h4>📝 Notas do agente</h4><ul><li>Não encontrei eventos com data confirmada para este fim de semana em Faro: as atividades são sugestões gerais, por isso confirmar horários antes de sair.</li><li>Possível recital de órgão na Sé de Faro a 22/11 (barlavento.pt), mas o ano do artigo não é claro: não entrou no plano.</li><li>Ciência Viva e Museu Municipal ficam a pé da estação; só a praia precisa de autocarro.</li></ul></div>
+  </div>
+  <footer>Gerado pelo agente “Fim de semana” · Tempo: dados oficiais · Eventos: só os que têm fonte.
+  Um agente pode enganar-se; tu é que vais apanhar a chuva.</footer>
+</main>
+</body>
+</html>
